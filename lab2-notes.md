@@ -17,7 +17,7 @@ Long form tutorial with screenshots [here](https://angus.readthedocs.io/en/2018/
 
 Briefly,
 
-* go to [use.jetstream-cloud.org/application] (https://use.jetstream-cloud.org/application) and log in.
+* go to [use.jetstream-cloud.org/application](https://use.jetstream-cloud.org/application) and log in.
 * the username is 'diblions' and the password is in a Canvas announcement.
 * create a folder with your name in it under projects, then create a new instance.
     * find the GGG image under favorites
@@ -41,8 +41,6 @@ raw data -> workflow -> summary data for plotting and statistics.
 * one of the things you'll learn in this class is how to use and modify automated workflows, and maybe how to build them.
 * dangers of workflows: point and click and done! => black box. bad for research.
 
-(diagrams??)
-
 ## What does a de novo RNAseq workflow look like?
 
 * raw data: short read RNAseq
@@ -56,7 +54,9 @@ raw data -> workflow -> summary data for plotting and statistics.
 3. annotation
 4. expression analysis
 
-(diagram goes here :)
+![](IMG_5976.jpg)
+![](IMG_5977.jpg)
+
 
 ## Back to Jetstream
 
@@ -173,9 +173,9 @@ And now, run Trimmomatic:
 
 ```
 trimmomatic PE 0Hour_ATCACG_L002_R1_001.fastq \
-        0Hour_ATCACG_L002_R1_002.fastq \
+        0Hour_ATCACG_L002_R2_001.fastq \
         0Hour_ATCACG_L002_R1_001.qc.fastq orphans_1 \
-        0Hour_ATCACG_L002_R1_002.qc.fastq orphans_2 \
+        0Hour_ATCACG_L002_R2_001.qc.fastq orphans_2 \
         ILLUMINACLIP:TruSeq2-PE.fa:2:40:15 \
         LEADING:2 TRAILING:2 \
         SLIDINGWINDOW:4:2 \
