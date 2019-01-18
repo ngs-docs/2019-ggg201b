@@ -54,8 +54,8 @@ raw data -> workflow -> summary data for plotting and statistics.
 3. annotation
 4. expression analysis
 
-![](lab2_notes/IMG_5976.jpg)
-![](lab2_notes/IMG_5977.jpg)
+![](lab2_images/IMG_5976.jpg)
+![](lab2_images/IMG_5977.jpg)
 
 
 ## Back to Jetstream
