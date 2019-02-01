@@ -7,7 +7,7 @@ tags: ggg2019
 
 ## Federated auth
 
-![federated authentication](lab3_images/federated_auth.jpg)
+![federated authentication](lab3_images/federated-auth.jpg)
 
 ## Miscellany
 
